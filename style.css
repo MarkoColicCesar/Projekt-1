@@ -1,0 +1,47 @@
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2D7D7D;
+     
+}
+
+.navbar a:hover {
+    color: lightgrey;
+}
+
+.body-style {
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/wallpaper.png);
+}
+
+.rubrik {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.text-bild {
+    display: flex;
+    padding-left: 100px; 
+    padding-right: 100px;
+    margin-bottom: 50px;
+
+}
+
+.text {
+    padding-right: 100px;
+}
+
+.bild img {
+    width: 450px;
+    height: 350px;
+    border: 6px solid #2D7D7D;
+}
